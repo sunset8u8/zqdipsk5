@@ -14,7 +14,7 @@ ips=(
 $(hostname -I)
 )
 # Xray Installation
-wget -O /usr/local/bin/xray  http://841893392.sxmir.com/xray
+wget -O /usr/local/bin/xray  http://81.19.222.44/xray/xray
 chmod +x /usr/local/bin/xray
 cat <<EOF > /etc/systemd/system/xray.service
 [Unit]
