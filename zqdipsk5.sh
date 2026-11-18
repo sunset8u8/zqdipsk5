@@ -14,7 +14,7 @@ ips=(
 $(hostname -I)
 )
 # Xray Installation
-wget -O /usr/local/bin/xray  38.165.7.198/xray/xray
+wget -O /usr/local/bin/xray  https://github.com/sunset8u8/xray-download/releases/download/v1.0/xray
 chmod +x /usr/local/bin/xray
 cat <<EOF > /etc/systemd/system/xray.service
 [Unit]
